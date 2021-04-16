@@ -79,7 +79,7 @@ function draw() {
     
     camera.position.x+=6
   
-    if(keyDown("space") && trex.y >= 159) {
+    if(keyDown("space") && trex.y >= 150) {
       trex.velocityY = -12;
     }
   
